@@ -1,7 +1,7 @@
 
 
 
-def interpolate_affine(A1, A2, s, t):
+def lerp(A1, A2, s, t):
     """
     Interpolates two affine matrices A1 and A2 with parameter s
     """
