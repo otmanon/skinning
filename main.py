@@ -10,10 +10,9 @@ from keyframe_animate import keyframe_animate
 
 
 ## Load a mesh from our computer
-[X, _, _, F, _, _]  = igl.read_obj("./data/cthullu.obj")
+[X, _, _, F, _, _]  = igl.read_obj("./data/snail.obj")
 # Create a set of uniform skinning weights
 W = np.ones((X.shape[0], 1))
-
 
 ## Scale the mesh
 s1 = [1, 1, 1]
