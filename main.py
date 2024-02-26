@@ -35,18 +35,18 @@ A7 = rotate(r3)
 
 
 ## Perform keyframe animation
-keyframe_animate(X, F, A1, A2, W,  50)
+keyframe_animate(X, F, A1, A2,   50)
 
-keyframe_animate(X, F, A2, A3, W,  10)
+keyframe_animate(X, F, A2, A3,   10)
 
-keyframe_animate(X, F, A3, A4, W, 100)
+keyframe_animate(X, F, A3, A4,  100)
 
-keyframe_animate(X, F, A4, A5, W, 50)
+keyframe_animate(X, F, A4, A5,  50)
 
-keyframe_animate(X, F, A5, A6, W, 50)
+keyframe_animate(X, F, A5, A6,  50)
 
 
-keyframe_animate(X, F, A6, A7, W, 50)
+keyframe_animate(X, F, A6, A7,  50)
 # now go from A7 to A6 again but with way smaller angles
 timesteps = 100
 A_next = A7.copy()

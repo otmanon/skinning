@@ -1,0 +1,5 @@
+notebook
+polyscope
+libigl
+numpy
+scipy
